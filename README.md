@@ -41,4 +41,8 @@ A simple demonstration testbench is provided along with UVVM Light and is locate
 
 Steps to run demo:
 1. Run compile_and_run_demo.do / run_demo.bat / run_demo.sh in /sim folder
+2. Comment out the exit line to avoid Modelsim shutting down automatically after running the simulation. 
+```sh
+# exit -f
+```
 
